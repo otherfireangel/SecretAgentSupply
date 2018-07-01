@@ -9,81 +9,68 @@
   <body>
     <!--Header HTML-->
     <header>
-      <div class="site-container">
+      <div class="container">
         <img src="resources/images/logo.png"/>
-        <h1>Secret Agent Supply Inc.</h1>
+        <span>Secret Agent Supply Inc.</span>
       </div>
     </header>
     <!--Big Image HTML-->
     <div id="bg">
-      <div class="site-container">
-        <div class="textbox">
-          <h1>New Arrival</h1>
-          <h2>Sport Bikes and Motorcycles</h2>
+      <div class="container">
+        <div class="headline">
+          <h4>New Arrival</h4>
+          <h1>Sport Bikes and Motorcycles</h1>
         </div>
       </div>
     </div>
     <!--NavBar HTML-->
     <nav>
-      <div class="site-container">
-        <ul>
-          <li>Eyewear</li>
-          <li>Apparel</li>
-          <li>Gadgets</li>
-          <li>Vehicles</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+      <ul class="large-nav container">
+        <li>Eyewear</li>
+        <li>Apparel</li>
+        <li>Gadgets</li>
+        <li>Vehicles</li>
+        <li>Classes</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="mobile-nav container">
+        <li>Menu</li>
+      </ul>
     </nav>
     <!--Main HTML-->
     <div id="main">
-      <div class="site-container">
+      <div class="container products">
         <!--Pen HTML-->
-        <div class="product" id="pen">
-            <div class="image">
-            <img src="resources/images/pen.png"/>
-          </div>
-          <div class="textbox">
-            <h3>Exploding Pen</h3>
-          </div>
+        <div class="product">
+          <div class="image"><img src="resources/images/pen.png"/></div>
+          <h3>Exploding Pen</h3>
         </div>
         <!--Watch HTML-->
-        <div class="product" id="watch">
-          <div class="image">
-            <img src="resources/images/watch.png"/>
-          </div>
-          <div class="textbox">
-            <h3>Cellular Watch</h3>
-          </div>
+        <div class="product mobile-img">
+          <div class="image"><img src="resources/images/watch.png"/></div>
+          <h3>Cellular Watch</h3>
         </div>
         <!--Glasses HTML-->
-        <div class="product" id="glasses">
-          <div class="image">
-            <img src="resources/images/glasses.png"/>
-          </div>
-          <div class="textbox">
-            <h3>Thermal Glasses</h3>
-          </div>
+        <div class="product small-img">
+          <div class="image"><img src="resources/images/glasses.png"/></div>
+          <h3>Thermal Glasses</h3>
         </div>
+      </div>
         <!--Location and Hours HTML-->
+      <div class="container infos">
         <div class="info">
-          <div class="textbox">
-            <h3>Location</h3>
-          </div>
+          <h3>Location</h3>
           <p>-47.346436, 84.32354</p>
         </div>
         <div class="info">
-          <div class="textbox">
-            <h3>Hours</h3>
-          </div>
+          <h3>Hours</h3>
           <p>0800 - 1800</p>
         </div>
       </div>
     </div>
     <!--Footer HTML-->
     <footer>
-      <div class="site-container">
+      <div class="container">
         <h3>Copyright Secret Agent Supply Inc.</h3>
       </div>
     </footer>
