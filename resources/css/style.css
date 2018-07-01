@@ -154,8 +154,7 @@ footer {
 }
 
 footer .container {
-  width: 960;
-  margin: 0;
+  width: 960px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -218,5 +217,9 @@ footer .container {
     margin-top: 0.5rem;
     width: 90%;
     display: block;
+  }
+
+  footer .container {
+    width: auto;
   }
 }
